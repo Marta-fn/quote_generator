@@ -24,11 +24,16 @@
       <h1>AI Quote Generator</h1>
     </header>
     <main>
-      <form id="quote-generator">
-        <input type="text" placeholder="Enter a word..." required autofocus class="prompt" id="user-prompt" />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="quote" id="quote">
+      <div class="form-container">
+        <form id="quote-generator">
+          <input type="text" placeholder="Enter a word..." required autofocus class="prompt" id="user-prompt" />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="example">
+          i.e: Happiness, Flower, Strong
+        </div>
+      </div>
+      <div class="quote hidden" id="quote">
       </div>
     </main>
     <footer>
